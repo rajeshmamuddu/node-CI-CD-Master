@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: node-todo-app
-          image: rajesh4851/node-todo-test:latest
+          image: rajesh4851/node-todo-list
           ports:
             - containerPort: 8000
           env:
